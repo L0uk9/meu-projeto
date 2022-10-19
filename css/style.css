@@ -1,0 +1,44 @@
+:root {
+  --c-branco: #fff;
+  --c-zul-claro: #dfe3e5;
+  --c-vermelho-forte: #b72e2e;
+  --c-cinza-escuro: #4f4c4c;
+  --c-azul-claro: #dfe3e5;
+  --c-cinza-claro: #f7f4f4;
+  --c-cinza-medio: #d9d9d9;
+
+  --fc-fonte-link: #0084ff;
+  --fc-fonte-cinza: #666;
+  --fc-borda-cabecalho-mobile: #103d4a;
+  --fc-bg-rodape: #333;
+  --fc-bg-chamada-mobile: #00161c;
+
+  --planos-cartao-start: #56ccf2;
+  --planos-cartao-ultra: #b04cd9;
+  --planos-cartao-mega: #e33b3b;
+
+  /* fontes default */
+
+  --montserrat: "montserrat,sans-serif";
+  /* --openSans: "Open Sans", sans-serif"; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  padding: 0 6%;
+}
+.botao {
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 1rem 2rem;
+  border: 1px solid var(--c-branco);
+}
